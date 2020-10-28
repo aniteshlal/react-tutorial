@@ -3,7 +3,7 @@ import React from 'react';
 function TableOfContents() {
   return (
     <div>
-      <h1>Table of contents</h1>
+      <h1>Table of Contents</h1>
     </div>
   );
 }
