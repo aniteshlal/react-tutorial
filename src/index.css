@@ -1,8 +1,5 @@
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-
   -webkit-user-select: text;
   -moz-user-select: text;
   -ms-user-select: text;
@@ -24,11 +21,11 @@ code {
     monospace;
 }
 
-#page-wrap {
-  padding-bottom: 10px;
-  padding-top: 10px;
-}
 .page-title {
   text-align: center;
   box-shadow: 0px 3px 4px 0px #ccc;
+  background: white;
+  position: 'sticky';
+  top: 0px;
+  padding: 3px;
 }

@@ -33,7 +33,7 @@ function Menu() {
   return (
     <IonMenu contentId='main' scrollY='true'>
       <IonHeader>
-        <IonToolbar style={{ backgroundColor: '#20232a' }}>
+        <IonToolbar>
           <IonTitle>
             <img
               src={process.env.PUBLIC_URL + '/logo192.png'}

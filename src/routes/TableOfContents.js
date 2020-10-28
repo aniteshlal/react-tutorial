@@ -1,10 +1,14 @@
 import React from 'react';
+import { IonContent, IonPage } from '@ionic/react';
+import PageTitle from '../components/PageTitle';
 
 function TableOfContents() {
   return (
-    <div>
-      <h1>Table of Contents</h1>
-    </div>
+    <IonPage>
+      <IonContent>
+        <PageTitle title='Table of Contents' />
+      </IonContent>
+    </IonPage>
   );
 }
 

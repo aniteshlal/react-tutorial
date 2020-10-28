@@ -1,10 +1,14 @@
 import React from 'react';
+import { IonContent, IonPage } from '@ionic/react';
+import PageTitle from '../components/PageTitle';
 
 function WhatIsReact() {
   return (
-    <div>
-      <h1>What is React?</h1>
-    </div>
+    <IonPage>
+      <IonContent>
+        <PageTitle title='What is React?' />
+      </IonContent>
+    </IonPage>
   );
 }
 
