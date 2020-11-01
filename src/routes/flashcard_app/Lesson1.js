@@ -107,7 +107,7 @@ function Lesson1() {
             </i>
             , add the following in the return statement{' '}
             <pre>
-              <code>{'<div>Hello World</div>'}</code>
+              <code>{'<h1>Hello World</h1>'}</code>
             </pre>
             <div className='image-container'>
               <span className='image-column'>
@@ -124,10 +124,7 @@ function Lesson1() {
                   alt='Add new event preview'
                 />
               </span>
-            </div>
-          </p>
-          <p>
-            {' '}
+            </div>{' '}
             When you go back to your browser, you should just see the text
             'Hello World'
             <div className='text-center'>
@@ -137,6 +134,10 @@ function Lesson1() {
                 alt='Add new event preview'
               />
             </div>
+            We have now got rid of all the unnecessary stuff that we don't need
+            and we are left with just a basic app that displays a h1 tag that
+            says 'Hello World'. <br></br>
+            This will be our be the starting point of our Flashcard Application.
           </p>
         </section>
       </IonContent>

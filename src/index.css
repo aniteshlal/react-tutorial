@@ -38,6 +38,7 @@ code {
 
 .text-center {
   text-align: center !important;
+  padding: 10px;
 }
 
 a {
@@ -90,7 +91,9 @@ code {
   width: 50%;
   padding: 5px;
 }
-
+.image-container {
+  padding: 10px;
+}
 /* Clearfix (clear floats) */
 .image-container::after {
   content: '';
