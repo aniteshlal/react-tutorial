@@ -7,3 +7,7 @@ export const WHAT_IS_REACT = {
   path: '/what-is-react',
   title: 'What is React?',
 };
+export const Lesson1 = {
+  path: '/flashcard-1',
+  title: '1. Getting started',
+};

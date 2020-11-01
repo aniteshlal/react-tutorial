@@ -10,6 +10,7 @@ import Menu from './components/Menu';
 import Home from './routes/Home';
 import TableOfContent from './routes/TableOfContents';
 import WhatIsReact from './routes/WhatIsReact';
+import Lesson1 from './routes/flashcard_app/Lesson1';
 
 import * as ROUTES from './constants/appRoutes';
 
@@ -33,6 +34,7 @@ function App() {
                 component={TableOfContent}
               />
               <Route exact path={'/what-is-react'} component={WhatIsReact} />
+              <Route exact path={'/flashcard-1'} component={Lesson1} />
             </Switch>
           </IonPage>
         </IonSplitPane>

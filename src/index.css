@@ -29,3 +29,71 @@ code {
   top: 0px;
   padding: 3px;
 }
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid red;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+a:hover {
+  color: #0056b3;
+  text-decoration: none;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+pre {
+  font-size: 90%;
+  line-height: 1.2em;
+  font-family: 'Courier 10 Pitch', Courier, monospace;
+  white-space: pre;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -o-pre-wrap;
+
+  height: 1%;
+  width: auto;
+  display: block;
+  clear: both;
+  color: #555555;
+  padding: 1em 1em;
+  margin: auto 40px auto 40px;
+  background: #f4f4f4;
+  border: solid 1px #e1e1e1;
+}
+code {
+  font-size: 90%;
+  line-height: 1.2em;
+  font-family: Monaco, Consolas, 'Andale Mono', 'DejaVu Sans Mono', monospace;
+
+  display: inline;
+  color: #555555;
+  padding: 1em 1em;
+  background: #f4f4f4;
+}
+
+.image-column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.image-container::after {
+  content: '';
+  clear: both;
+  display: table;
+}

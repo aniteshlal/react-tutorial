@@ -15,7 +15,7 @@ import * as ROUTES from '../constants/appRoutes';
 
 const routes = {
   section1: [ROUTES.HOME, ROUTES.TABLE_OF_CONTENT, ROUTES.WHAT_IS_REACT],
-  section2: [ROUTES.HOME, ROUTES.TABLE_OF_CONTENT, ROUTES.WHAT_IS_REACT],
+  section2: [ROUTES.Lesson1],
 };
 function Menu() {
   function renderlistItems(list) {
@@ -50,9 +50,9 @@ function Menu() {
       </IonHeader>
 
       <IonContent class='outer-content'>
-        <IonListHeader>Section 1</IonListHeader>
+        <IonListHeader>Introduction</IonListHeader>
         <IonList>{renderlistItems(routes.section1)}</IonList>
-        <IonListHeader>Section 2</IonListHeader>
+        <IonListHeader>Flashcard App Tutorial</IonListHeader>
         <IonList>{renderlistItems(routes.section2)}</IonList>
       </IonContent>
     </IonMenu>

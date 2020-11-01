@@ -1,6 +1,6 @@
 import React from 'react';
 import { IonContent, IonPage } from '@ionic/react';
-import PageTitle from '../components/PageTitle';
+import  PageTitle  from '../components/PageTitle';
 function Home() {
   return (
     <IonPage>
