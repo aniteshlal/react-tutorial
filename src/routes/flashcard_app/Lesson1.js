@@ -18,7 +18,14 @@ function Lesson1() {
             We will be making a flashcard React web application that will
             connect to a public API called{' '}
             <a href='https://opentdb.com/'>Open Trivia DB.</a>{' '}
-            <p>The following GIF will demonstrate the app we will be making.</p>
+            <p>
+              The following GIF will demonstrate the app we will be making.
+              Access to the
+              <a href='https://quiz-react-app-54baa.web.app'>
+                {' '}
+                Application Demo.
+              </a>
+            </p>
           </p>
           <div className='text-center'>
             {' '}
