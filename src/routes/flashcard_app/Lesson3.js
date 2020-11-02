@@ -1,6 +1,7 @@
 import React from 'react';
 import { IonContent, IonPage } from '@ionic/react';
 import PageTitle from '../../components/PageTitle';
+import * as ROUTES from '../../constants/appRoutes';
 import Pagnation from '../../components/Pagnation';
 import { Link } from 'react-router-dom';
 
@@ -152,7 +153,7 @@ function Lesson2() {
             </a>
           </p>
         </section>
-        <Pagnation prev={'/flashcard-2'} next={'/flashcard-4'}></Pagnation>
+        <Pagnation prev={ROUTES.Lesson2.path}></Pagnation>
       </IonContent>
     </IonPage>
   );

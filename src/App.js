@@ -7,9 +7,12 @@ import '@ionic/core/css/core.css';
 import '@ionic/core/css/ionic.bundle.css';
 
 import Menu from './components/Menu';
-import Home from './routes/Home';
-import TableOfContent from './routes/TableOfContents';
-import WhatIsReact from './routes/WhatIsReact';
+import Section1L1 from './routes/section1/Section1L1';
+import Section1L2 from './routes/section1/Section1L2';
+import Section1L3 from './routes/section1/Section1L3';
+import Section1L4 from './routes/section1/Section1L4';
+import Section1L5 from './routes/section1/Section1L5';
+import Section1L6 from './routes/section1/Section1L6';
 import Lesson1 from './routes/flashcard_app/Lesson1';
 import Lesson3 from './routes/flashcard_app/Lesson3';
 import Lesson2 from './routes/flashcard_app/Lesson2';
@@ -24,18 +27,19 @@ function App() {
           <Menu />
           <IonPage id='main'>
             <Switch>
-              <Route exact path={ROUTES.HOME.path} component={Home} />
+              <Route exact path={ROUTES.S1L1.path} component={Section1L1} />
               <Route
                 exact
                 path='/'
-                render={() => <Redirect to={ROUTES.HOME.path} />}
+                render={() => <Redirect to={ROUTES.S1L1.path} />}
               />
-              <Route
-                exact
-                path={'/table-of-contents'}
-                component={TableOfContent}
-              />
-              <Route exact path={'/what-is-react'} component={WhatIsReact} />
+              <Route exact path={ROUTES.S1L1.path} component={Section1L1} />
+              <Route exact path={ROUTES.S1L2.path} component={Section1L2} />
+              <Route exact path={ROUTES.S1L3.path} component={Section1L3} />
+              <Route exact path={ROUTES.S1L4.path} component={Section1L4} />
+              <Route exact path={ROUTES.S1L5.path} component={Section1L5} />
+              <Route exact path={ROUTES.S1L6.path} component={Section1L6} />
+
               <Route exact path={'/flashcard-1'} component={Lesson1} />
               <Route exact path={'/flashcard-2'} component={Lesson2} />
               <Route exact path={'/flashcard-3'} component={Lesson3} />

@@ -1,6 +1,7 @@
 import React from 'react';
 import { IonContent, IonPage } from '@ionic/react';
 import PageTitle from '../../components/PageTitle';
+import * as ROUTES from '../../constants/appRoutes';
 import Pagnation from '../../components/Pagnation';
 
 function Lesson2() {
@@ -163,8 +164,10 @@ function Lesson2() {
             <br />
           </p>
         </section>
-        <hr />
-        <Pagnation prev={'/flashcard-1'} next={'/flashcard-3'}></Pagnation>
+        <Pagnation
+          prev={ROUTES.Lesson1.path}
+          next={ROUTES.Lesson3.path}
+        ></Pagnation>
       </IonContent>
     </IonPage>
   );

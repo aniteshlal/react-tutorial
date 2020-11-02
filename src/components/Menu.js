@@ -15,12 +15,12 @@ import * as ROUTES from '../constants/appRoutes';
 
 const routes = {
   section1: [
-    ROUTES.HOME,
-    ROUTES.WHY_REACT,
-    ROUTES.FEATURES,
-    ROUTES.COMPONENTS_STATES_PROPS,
-    ROUTES.REACT_PREREQUISITES,
-    ROUTES.REACT_LIFECYCLES,
+    ROUTES.S1L1,
+    ROUTES.S1L2,
+    ROUTES.S1L3,
+    ROUTES.S1L4,
+    ROUTES.S1L5,
+    ROUTES.S1L6,
   ],
   section2: [ROUTES.Lesson1, ROUTES.Lesson2, ROUTES.Lesson3],
 };

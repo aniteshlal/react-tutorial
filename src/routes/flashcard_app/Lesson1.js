@@ -153,8 +153,10 @@ function Lesson1() {
             This will be our be the starting point of our Flashcard Application.
           </p>
         </section>
-        <hr />
-        <Pagnation prev={'/home'} next={'/flashcard-2'}></Pagnation>
+        <Pagnation
+          prev={ROUTES.S1L6.path}
+          next={ROUTES.Lesson2.path}
+        ></Pagnation>
       </IonContent>
     </IonPage>
   );
