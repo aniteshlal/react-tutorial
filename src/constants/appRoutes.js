@@ -39,3 +39,11 @@ export const Lesson3 = {
   path: '/flashcard-3',
   title: '3. Connecting to API',
 };
+export const S3L1 = {
+  path: '/firebase-hosting',
+  title: 'What is Google Firebase?',
+};
+export const S3L2 = {
+  path: '/deployment',
+  title: 'How to Deploy your Application?',
+};

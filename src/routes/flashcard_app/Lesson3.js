@@ -153,7 +153,10 @@ function Lesson2() {
             </a>
           </p>
         </section>
-        <Pagnation prev={ROUTES.Lesson2.path}></Pagnation>
+        <Pagnation
+          prev={ROUTES.Lesson2.path}
+          next={ROUTES.S3L1.path}
+        ></Pagnation>
       </IonContent>
     </IonPage>
   );

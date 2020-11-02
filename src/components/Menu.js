@@ -23,6 +23,7 @@ const routes = {
     ROUTES.S1L6,
   ],
   section2: [ROUTES.Lesson1, ROUTES.Lesson2, ROUTES.Lesson3],
+  section3: [ROUTES.S3L1, ROUTES.S3L2],
 };
 function Menu() {
   function renderlistItems(list) {
@@ -61,6 +62,8 @@ function Menu() {
         <IonList>{renderlistItems(routes.section1)}</IonList>
         <IonListHeader>Flashcard App Tutorial</IonListHeader>
         <IonList>{renderlistItems(routes.section2)}</IonList>
+        <IonListHeader>Deployment</IonListHeader>
+        <IonList>{renderlistItems(routes.section3)}</IonList>
       </IonContent>
     </IonMenu>
   );
