@@ -22,13 +22,11 @@ function Lesson1() {
               The following GIF will demonstrate the app we will be making.
               Access to the
               <a href='https://quiz-react-app-54baa.web.app'>
-                {' '}
                 Application Demo.
               </a>
             </p>
           </p>
           <div className='text-center'>
-            {' '}
             <img
               className='img-fluid'
               src={process.env.PUBLIC_URL + '/App_Demo.gif'}
