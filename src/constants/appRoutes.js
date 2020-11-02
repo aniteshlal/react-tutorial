@@ -11,3 +11,7 @@ export const Lesson1 = {
   path: '/flashcard-1',
   title: '1. Getting started',
 };
+export const Lesson2 = {
+  path: '/flashcard-2',
+  title: '2. Making a the UI',
+};

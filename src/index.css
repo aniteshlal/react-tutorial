@@ -100,3 +100,6 @@ code {
   clear: both;
   display: table;
 }
+hr {
+  background: black;
+}

@@ -15,7 +15,7 @@ import * as ROUTES from '../constants/appRoutes';
 
 const routes = {
   section1: [ROUTES.HOME, ROUTES.TABLE_OF_CONTENT, ROUTES.WHAT_IS_REACT],
-  section2: [ROUTES.Lesson1],
+  section2: [ROUTES.Lesson1, ROUTES.Lesson2],
 };
 function Menu() {
   function renderlistItems(list) {

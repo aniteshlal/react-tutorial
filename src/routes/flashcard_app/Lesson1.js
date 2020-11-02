@@ -2,6 +2,7 @@ import React from 'react';
 import { IonContent, IonPage } from '@ionic/react';
 import PageTitle from '../../components/PageTitle';
 import * as ROUTES from '../../constants/appRoutes';
+import Pagnation from '../../components/Pagnation';
 
 function Lesson1() {
   return (
@@ -12,7 +13,7 @@ function Lesson1() {
           <h4>
             <strong>What are we going to be making?</strong>
           </h4>
-
+          <hr />
           <p>
             We will be making a flashcard React web application that will
             connect to a public API called{' '}
@@ -27,10 +28,11 @@ function Lesson1() {
               alt='Add new event preview'
             />
           </div>
-
           <h4>
             <strong>Step 1: Create react app</strong>
           </h4>
+          <hr />
+
           <p>
             Create React App is an officially supported way to create
             single-page React applications.
@@ -56,6 +58,8 @@ function Lesson1() {
           <h4>
             <strong>Step 2: Run the application locally</strong>
           </h4>
+          <hr />
+
           <p>
             After your the create-react-app is done. Run the following commands
             to install your dependencies.(<strong>Note:</strong> you can use
@@ -86,6 +90,8 @@ function Lesson1() {
           <h4>
             <strong>Step 3:Cleaning up boilerplate code</strong>
           </h4>
+          <hr />
+
           <p>
             Remove all the files that are highlighted in orange in the above
             image of the file structure.
@@ -140,6 +146,8 @@ function Lesson1() {
             This will be our be the starting point of our Flashcard Application.
           </p>
         </section>
+        <hr />
+        <Pagnation prev={'/home'} next={'/flashcard-2'}></Pagnation>
       </IonContent>
     </IonPage>
   );
