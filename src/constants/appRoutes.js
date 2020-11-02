@@ -9,7 +9,7 @@ export const WHAT_IS_REACT = {
 };
 export const Lesson1 = {
   path: '/flashcard-1',
-  title: '1. Getting started',
+  title: '1. Getting Started',
 };
 export const Lesson2 = {
   path: '/flashcard-2',
