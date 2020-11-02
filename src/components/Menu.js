@@ -14,7 +14,14 @@ import React from 'react';
 import * as ROUTES from '../constants/appRoutes';
 
 const routes = {
-  section1: [ROUTES.HOME, ROUTES.TABLE_OF_CONTENT, ROUTES.WHAT_IS_REACT],
+  section1: [
+    ROUTES.HOME,
+    ROUTES.WHY_REACT,
+    ROUTES.FEATURES,
+    ROUTES.COMPONENTS_STATES_PROPS,
+    ROUTES.REACT_PREREQUISITES,
+    ROUTES.REACT_LIFECYCLES,
+  ],
   section2: [ROUTES.Lesson1, ROUTES.Lesson2, ROUTES.Lesson3],
 };
 function Menu() {
