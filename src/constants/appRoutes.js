@@ -5,7 +5,7 @@ export const S1L2 = {
 };
 export const S1L3 = {
   path: '/features',
-  title: 'Features',
+  title: 'Features of React',
 };
 export const S1L4 = {
   path: '/components-states-and-props',
