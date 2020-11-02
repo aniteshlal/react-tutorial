@@ -13,5 +13,9 @@ export const Lesson1 = {
 };
 export const Lesson2 = {
   path: '/flashcard-2',
-  title: '2. Making a the UI',
+  title: '2. Making the UI',
+};
+export const Lesson3 = {
+  path: '/flashcard-3',
+  title: '3. Connecting to API',
 };

@@ -6,11 +6,11 @@ import Pagnation from '../../components/Pagnation';
 function Lesson2() {
   return (
     <IonPage>
-      <PageTitle title='Making a UI' />
+      <PageTitle title='2. Making the UI' />
       <IonContent>
         <section style={{ padding: '10px' }}>
           <h4>
-            <strong>Creating components</strong>
+            <strong>Step 2: Creating components</strong>
           </h4>
           <hr />
           <p>
@@ -124,6 +124,42 @@ function Lesson2() {
             below the question.
             <strong>Line 44-46:</strong> This is the back of the Flashcard that
             will have the correct answer.
+            <br />
+          </p>
+
+          <h4>
+            <strong>FlashcardList Component</strong>
+          </h4>
+          <hr />
+          <p>
+            Add the following code to the{' '}
+            <b>
+              <i>FlashcardList.js</i>
+            </b>{' '}
+            file
+            <div className='text-center'>
+              <img
+                className='img-fluid'
+                src={process.env.PUBLIC_URL + '/flashcardlistcomponent.png'}
+                alt='Add new event preview'
+              />
+            </div>
+            <strong>Line 2:</strong> We are importing our Flashcard component
+            that we build.
+            <br />
+            <strong>Line 3:</strong> This component is being passed in an array
+            of JSON objects that we get from our API called in the parent
+            component. To access this, React uses a special keyword{' '}
+            <b>
+              <i>props</i>
+            </b>{' '}
+            to pass data from parent component to child components
+            <br />
+            <strong>Line 7-11:</strong>This {' <div> '} will be the grid that
+            will have all the individual flash cards in it. In line 8-9, we
+            iterate through the flashcard array and for each object in the
+            array, we pass that object to our Flashcard component to create our
+            Flashcard for each of object.
             <br />
           </p>
         </section>
