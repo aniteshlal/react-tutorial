@@ -12,12 +12,12 @@ export const S1L4 = {
   title: 'Components, State, and Props',
 };
 export const S1L5 = {
-  path: '/react-prerequisites',
-  title: 'React Prerequisites',
-};
-export const S1L6 = {
   path: '/react-lifecycles',
   title: 'React Lifecycles',
+};
+export const S1L6 = {
+  path: '/react-prerequisites',
+  title: 'React Prerequisites',
 };
 export const TABLE_OF_CONTENT = {
   path: '/table-of-contents',
