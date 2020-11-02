@@ -9,7 +9,22 @@ function Section1L5() {
     <IonPage>
       <PageTitle title={ROUTES.S1L5.title} />
       <IonContent>
-        <section style={{ padding: '10px' }}></section>
+        <section style={{ padding: '10px' }}>
+          <h4>
+            <strong>Concepts to familiarize with before learning React</strong>
+          </h4>
+          <hr />
+          <ul>
+            <li>
+              Programing concepts like functions, objects, arrays and classes
+            </li>
+            <li>Concept of JavaScript</li>
+            <li>Familiarity with HTML {`&`} CSS</li>
+            <li>Understanding of DOM</li>
+            <li>Familiarity with ES6 syntax and features</li>
+            <li>Node.js and npm installation</li>
+          </ul>
+        </section>
         <Pagnation prev={ROUTES.S1L4.path} next={ROUTES.S1L6.path}></Pagnation>
       </IonContent>
     </IonPage>
