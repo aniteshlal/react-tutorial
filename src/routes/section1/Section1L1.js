@@ -9,7 +9,34 @@ function Section1L1() {
     <IonPage>
       <PageTitle title={ROUTES.S1L1.title} />
       <IonContent>
-        <section style={{ padding: '10px' }}></section>
+        <section style={{ padding: '10px' }}>
+          <h4>
+            <strong>What is React?</strong>
+          </h4>
+          <hr />
+          <p>
+            <b>React</b> is the open-source project which was created by
+            Facebook. It is a declarative, efficient and flexible JavaScript
+            library which is used to build user interface (UI) on the front end.
+            React only works with the <b>View</b> layer, which means there is
+            only the V in the MVC - <i>Model-View-Controller</i> – architecture
+            using which the users can create components which are like custom,
+            re-usable HTML elements that can be used to quickly and efficiently
+            build the user interfaces. It uses state and props to streamline the
+            storage and handling of data. React can be used as a base in the
+            development of single-page or mobile applications. It is only
+            concerned with rendering data to the DOM, and so creating React
+            applications usually requires the use of additional libraries for )
+            and routing like Redux and React Router.
+            <div className='text-center'>
+              <img
+                className='img-fluid'
+                src={process.env.PUBLIC_URL + '/pic1.png'}
+                alt='Add new event preview'
+              />
+            </div>
+          </p>
+        </section>
         <Pagnation next={ROUTES.S1L2.path}></Pagnation>
       </IonContent>
     </IonPage>
