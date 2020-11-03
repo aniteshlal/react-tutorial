@@ -103,8 +103,7 @@ function Section1L5() {
             <ul>
               <li>
                 <b>static getDerivedStateFromProps()</b> <br />
-                (Note: make this a link which takes the reader back to previous
-                page where the method is explained)
+                (This method is explained above)
               </li>
               <li>
                 <b>shouldComponentUpdate()</b> <br />
