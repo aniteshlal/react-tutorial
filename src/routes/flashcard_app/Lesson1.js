@@ -20,7 +20,7 @@ function Lesson1() {
             <a href='https://opentdb.com/'>Open Trivia DB.</a>{' '}
             <p>
               The following GIF will demonstrate the app we will be making.
-              Access to the
+              Access to the{' '}
               <a href='https://quiz-react-app-54baa.web.app'>
                 Application Demo.
               </a>
