@@ -21,6 +21,7 @@ const routes = {
     ROUTES.S1L4,
     ROUTES.S1L5,
     ROUTES.S1L6,
+    ROUTES.S1L7,
   ],
   section2: [ROUTES.Lesson1, ROUTES.Lesson2, ROUTES.Lesson3],
   section3: [ROUTES.S3L1, ROUTES.S3L2],

@@ -47,3 +47,7 @@ export const S3L2 = {
   path: '/deployment',
   title: 'How to Deploy your Application?',
 };
+export const S1L7 = {
+  path: '/react-comparison',
+  title: 'Framework Comparison',
+};

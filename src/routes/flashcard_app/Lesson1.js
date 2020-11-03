@@ -152,7 +152,7 @@ function Lesson1() {
           </p>
         </section>
         <Pagnation
-          prev={ROUTES.S1L6.path}
+          prev={ROUTES.S1L7.path}
           next={ROUTES.Lesson2.path}
         ></Pagnation>
       </IonContent>

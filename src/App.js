@@ -13,6 +13,8 @@ import Section1L3 from './routes/section1/Section1L3';
 import Section1L4 from './routes/section1/Section1L4';
 import Section1L5 from './routes/section1/Section1L5';
 import Section1L6 from './routes/section1/Section1L6';
+import Section1L7 from './routes/section1/Section1L7';
+
 import Lesson1 from './routes/flashcard_app/Lesson1';
 import Lesson3 from './routes/flashcard_app/Lesson3';
 import Lesson2 from './routes/flashcard_app/Lesson2';
@@ -41,6 +43,7 @@ function App() {
               <Route exact path={ROUTES.S1L4.path} component={Section1L4} />
               <Route exact path={ROUTES.S1L5.path} component={Section1L5} />
               <Route exact path={ROUTES.S1L6.path} component={Section1L6} />
+              <Route exact path={ROUTES.S1L7.path} component={Section1L7} />
 
               <Route exact path={ROUTES.Lesson1.path} component={Lesson1} />
               <Route exact path={ROUTES.Lesson2.path} component={Lesson2} />

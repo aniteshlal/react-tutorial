@@ -27,7 +27,7 @@ function Section1L6() {
         </section>
         <Pagnation
           prev={ROUTES.S1L5.path}
-          next={ROUTES.Lesson1.path}
+          next={ROUTES.S1L7.path}
         ></Pagnation>
       </IonContent>
     </IonPage>

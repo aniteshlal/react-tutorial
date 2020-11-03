@@ -20,8 +20,8 @@ function Section1L2() {
             <li>
               <h3>Easy to create dynamic applications</h3>
               <p>
-                It is easy to create dynamic web application using React as it
-                requires less coding and offering more functionality.
+                Dynamic applications can be easily created using React as it
+                requires less coding and also offers more functionalities
               </p>
             </li>
 
@@ -29,51 +29,53 @@ function Section1L2() {
               <h3>Provides improved performance</h3>
 
               <p>
-                React provides improved performance with the use of virtual DOM
-                which makes creating web applications much faster. Instead of
-                updating all of the components virtual DOM just compares the
-                component’s previous states and updates the items that are only
-                in Real DOM.{' '}
+                React offers much improved performance compared to others as it
+                uses Virtual DOM. Use of virtual DOM makes developing web
+                application quicker because rather than updating all of the
+                components it just compares the component’s previous states and
+                updates the items that are only in Real DOM.
               </p>
             </li>
 
             <li>
               <h3>Use of reusable components</h3>
               <p>
-                Components are the building block of any React application. Even
-                a single app usually consists of multiple components which have
-                their own login and controls. These components can be reused
-                throughout the application dramatically reducing application’s
-                development time.{' '}
+                One of the most important features of React is the use of
+                Components. They are the building block of any React
+                application. Any React application consists of multiple
+                components and each component has its own login and controls.
+                These components are reused in the web application due to which
+                the application’s development time is reduced dramatically.
               </p>
             </li>
             <li>
               <h3>Unidirectional data flow</h3>
 
               <p>
-                React follows a unidirectional data flow which means when a
-                React app is developed, the developers usually nest child
-                components within parent components. And since data flows in a
-                single direction, debugging error becomes easier and identify
-                the location of any problem that occurs in an application.
+                React follows a unidirectional data flow by allowing the users
+                to nest child components within parent components. And that the
+                data flows in a unidirectional way it becomes much easier to
+                debug the errors and to identify the location of any problem
+                that occurs in an application.
               </p>
             </li>
             <li>
               <h3>Small Learning Curve</h3>
 
               <p>
-                React is an easy language to learn which combines basic HTML and
-                JavaScript concepts with some additional benefits added.{' '}
+                React is an easy language to learn. It consists of basic HTML
+                and JavaScript concepts plus some additional benefits.
               </p>
             </li>
             <li>
               <h3>Used for developing both web and mobile application</h3>
 
               <p>
-                React is useful not just for developing web applications but is
-                equally handy for developing mobile applications as well. React
-                Native, derived from React itself, is used for creating
-                beautiful mobile application.
+                React is an extremely useful tools as it is not only used to
+                develop web application but is also extremely handy for
+                developing mobile applications. React Native, which is derived
+                from React itself, is used for creating beautiful mobile
+                application.
               </p>
             </li>
             <li>
@@ -81,7 +83,7 @@ function Section1L2() {
 
               <p>
                 A Chrome extension has been released by Facebook which can be
-                used to easily and quickly debug React applications.{' '}
+                used to easily and quickly debug React applications.
               </p>
             </li>
           </ul>

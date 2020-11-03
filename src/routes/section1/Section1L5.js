@@ -39,27 +39,28 @@ function Section1L5() {
                 <b>constructor()</b>
                 <br />
                 <span>
-                  A constructor is called before the component is mounted.
+                  This method is called right before the component is mounted.
                   Super(props) should be called before any statement when the
-                  constructor is getting implemented. Otherwise, the component
-                  will be undefined causing bugs.
+                  constructor is getting implemented and if it does not get
+                  called then the component will be undefined which results in
+                  bugs.
                 </span>
               </li>
               <li>
                 <b>static getDerivedStateFromProps()</b>
                 <br />
                 <span>
-                  This method is called before a call to the render method is
-                  made both during initial mount and any subsequent updatesa.
-                  This method either returns an object to update the state or
-                  returns null to update nothing.
+                  Before any call is made to render method both during initial
+                  mount and any subsequent updates, this method needs to be
+                  called. The return value of this method is either an object to
+                  update the state or a null value to update nothing.
                 </span>
               </li>
               <li>
                 <b>render()</b>
                 <br />
                 <span>
-                  It is the only required method in a class component. It
+                  It is the only required method in a class component which
                   examines this.props and this.state and return one of the
                   following types:
                 </span>
@@ -81,10 +82,10 @@ function Section1L5() {
                 <b>componentDidMount()</b>
                 <br />
                 <span>
-                  It is invoked immediately after a component gets mounted.
-                  Initialization that requires DOM nodes go here. It is a good
-                  place to instantiate the network request if the data is needed
-                  to be loaded from a remote endpoint.
+                  As soon as a component gets mounted this method gets invoked.
+                  This method contains any initialization which requires DOM
+                  nodes. Also, a network is instantiated in this method if the
+                  data is needed to be loaded from a remote endpoint.
                 </span>
               </li>
             </ul>
@@ -114,15 +115,15 @@ function Section1L5() {
               <li>
                 <b>render()</b>
                 <br />
-                (Note: make this a link which takes the reader back to previous
-                page where the method is explained)
+                (This method is explained above)
               </li>
               <li>
                 <b>getSnapshotBeforeUpdate()</b>
                 <br />
-                Right before the mostly rendered output gets committed to DOM,
-                this method gets invoked. This method allows the component to
-                get some information from the DOM before it gets changed.
+                This method is used to provide component with some information
+                from DOM before it gets changed. Due to this, right before the
+                mostly rendered output gets committed to DOM, this method gets
+                invoked.
               </li>
               <li>
                 <b>componentDidUpdate()</b>
@@ -141,10 +142,10 @@ function Section1L5() {
               <li>
                 <b>componentWillUnmount()</b>
                 <br />
-                Right before the component is unmounted and destroyed this
-                method gets invoked. In this method, any necessary cleanup such
-                as invalidating timers cancelling subscriptions created in
-                componentDidMount() is performed.
+                This method is used to make any necessary cleanups like
+                invalidating timers or cancelling subscriptions created in
+                componentDidMount(). That’s why this method is invoked before
+                any component is unmounted and destroyed.
               </li>
             </ul>
           </p>
@@ -158,15 +159,15 @@ function Section1L5() {
               <li>
                 <b>static getDerivedStateFromError()</b>
                 <br />
-                When an error is thrown by a descendent component, this method
-                gets invoked. It receives the error thrown as a parameter and
+                When a descendent component throws an error, this method is
+                invoked which receives the error thrown as a parameter and
                 returns a value in order to update state.
               </li>
               <li>
                 <b>componentDidCatch()</b>
                 <br />
-                This method is invoked when an error is thrown by a descendent
-                component and receives two parameters:
+                When a descendent component throws an error this invokes this
+                method and receives two parameters:
               </li>
               <ul>
                 <li>

@@ -15,9 +15,9 @@ function Section1L4() {
           </h4>
           <hr />
           <p>
-            They are the building blocks of any React applications. Even a
-            single application consists of multiple components. Components are
-            independent, reusable parts that can be individually processed.
+            Components are the building blocks of any React applications and
+            every application contains multiple independent and reusable
+            components on which multiple developers can work simultaneously.
             <div className='text-center'>
               <img
                 className='img-fluid'
@@ -29,9 +29,9 @@ function Section1L4() {
           </p>
           <h4>Functional Components</h4>
           <p>
-            Functional Components are stateless components because they don’t
-            have any state of their own and only contain a render method. These
-            components derive data from other components as props (properties).
+            These are called stateless components as they don’t have any state
+            of their own and only contain a render method. These components
+            derive data as props from other components.
           </p>
 
           <h4>Class Components</h4>
@@ -46,21 +46,21 @@ function Section1L4() {
           </h4>
           <hr />
           <p>
-            State is a built-in React object which contains data or information
-            about the component. A state of a component can change over time
-            re-rendering the component in the process. A component’s behavior or
-            how it renders is determined by the change in state which occurs as
-            a response to user action or system generated events.
+            It is a built-in React object which holds the information about a
+            component. The concept of state is very important as any change in a
+            state occurred due to a response to any user action or any system
+            generated events determines a component’s behavior or how it is
+            rendered.
           </p>
           <h4>
             <strong>What are Props?</strong>
           </h4>
           <hr />
           <p>
-            Props are short form of properties which is a built-in object to
-            store the value of tag’s attributes. They work similar to HTML
-            attributes. Props provide a medium to pass data from one component
-            to another same way as arguments are passed in a function.
+            Props, aka properties, are a built-in object which holds the value
+            of tag’s attributes just like HTML attributes. These props provide a
+            medium to pass data from one component to another same way as
+            arguments are passed in a function.
           </p>
         </section>
         <Pagnation prev={ROUTES.S1L3.path} next={ROUTES.S1L5.path}></Pagnation>
