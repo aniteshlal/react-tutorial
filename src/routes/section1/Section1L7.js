@@ -110,6 +110,20 @@ function Section1L7() {
             Famous Website developed using <i>Vue</i>:{' '}
             <a href='https://www.alibaba.com/'>Alibaba</a>
           </p>
+          <h4>
+            <strong>Features Comparison Chart</strong>
+          </h4>
+          <hr />
+          <p>
+            <div className='text-center'>
+              <img
+                className='img'
+                src={process.env.PUBLIC_URL + '/compare_chart.jpg'}
+                alt='Add new event preview'
+                // style={{ width: '50%' }}
+              />
+            </div>
+          </p>
         </section>
         <Pagnation
           prev={ROUTES.S1L6.path}
